@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --color-charcoal: #172321;
+  --color-charcoal-light: #263835;
+  --color-charcoal-dark: #0F1716;
+  --color-cream: #F6F2E9;
+  --color-cream-surface: #FAF7F0;
+  --color-ivory: #FBF9F5;
+  --color-stone-grey: #6E6B65;
+  --color-stone-grey-light: #F0ECE4;
+  --color-teal-primary: #245B50;
+  --color-teal-dark: #1A443C;
+  --color-teal-light: #E8F0EE;
+  --color-gold: #C5A66B;
+  --color-gold-light: #F4EEDF;
+  --color-gold-dark: #A98747;
+  --color-border-subtle: #E2DDD2;
+}
+
+@layer base {
+  :root {
+    --charcoal: #172321;
+    --cream: #F6F2E9;
+    --ivory: #FBF9F5;
+    --stone-grey: #6E6B65;
+    --teal: #245B50;
+    --gold: #C5A66B;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #172321;
+    background-color: #F6F2E9;
+    line-height: 1.6;
+  }
+}
+
+/* Subtle architectural patterns */
+.stone-pattern {
+  background-color: #F6F2E9;
+  background-image: radial-gradient(#D8D2C4 0.75px, transparent 0.75px), radial-gradient(#E8E3D7 0.75px, #F6F2E9 0.75px);
+  background-size: 28px 28px;
+  background-position: 0 0, 14px 14px;
+}
+
+.architectural-grid {
+  background-size: 32px 32px;
+  background-image: linear-gradient(to right, rgba(23, 35, 33, 0.035) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(23, 35, 33, 0.035) 1px, transparent 1px);
+}
+
+.dark-architectural-grid {
+  background-size: 32px 32px;
+  background-image: linear-gradient(to right, rgba(246, 242, 233, 0.04) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(246, 242, 233, 0.04) 1px, transparent 1px);
+}

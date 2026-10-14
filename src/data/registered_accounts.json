@@ -1,0 +1,15 @@
+[
+  {
+    "id": "usr-1791914386762-1xd1",
+    "name": "Adepu Gayathri",
+    "email": "adepugayathri28@gmail.com",
+    "phone": "8121386869",
+    "role": "homeowner",
+    "passwordHash": "aa634bf4bf74b139a147b05231e1dda8e95f4e364ab98c5a12ca092f9d92996d7dfbc4d3e7f80d6068df0776c9bea80be9879bdc1874816c3639699a200ddcf4",
+    "salt": "cea92a3dbf87eca2d35cd39c7e1b14e4",
+    "city": "Hyderabad",
+    "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+    "createdAt": "2026-10-13T17:59:46.763Z",
+    "verificationStatus": "Verified"
+  }
+]
